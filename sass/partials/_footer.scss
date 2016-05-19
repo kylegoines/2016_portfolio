@@ -1,0 +1,36 @@
+footer{
+	height: 50px;
+	background: $black;
+
+	a{
+		color: white;
+	}
+
+	ul{
+		max-width: 740px;
+		margin: 0 auto;
+	}
+
+	li{
+		padding-top: 18px;
+		display: inline-block;
+		a,
+		.divider{
+			font-family: 'Gotham-light'; 
+		}
+	}
+	.divider{
+		color: white;
+	}
+}
+
+
+@media (max-width: 780px){
+
+	footer{
+		ul{
+			padding-left: 20px;
+		}
+	}
+
+}

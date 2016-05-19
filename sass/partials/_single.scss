@@ -1,0 +1,337 @@
+.project{
+
+	h1{
+		margin-bottom: 50px;
+	}
+
+	h3{
+		margin-top: 30px;
+	}
+	h2{
+		margin-bottom: 30px;
+	}
+
+	.info{
+
+		p{ 
+			margin-bottom: 10px;
+			max-width: 740px;
+			line-height: 27px;
+		}
+
+		h4{
+			font-family: 'Gotham-bold';
+			margin: 15px 0;
+		}
+
+		ul{
+			margin-bottom: 50px;
+			overflow: auto;
+		}
+		li{
+			color: $black;
+			background: $orange;;
+			font-size: 22px;
+			display: block;
+			float: left;
+			clear: both;
+			color: white;
+			padding: 4px 7px;
+			margin-bottom: 10px;
+			font-family: 'Gotham-light';
+		}
+	}
+
+
+}
+
+
+
+.hero{
+	overflow: hidden;
+	max-width: 100%;
+	width: 100%;
+	margin: 10px 0;
+	margin: 0;
+	background: #4a4a4a;
+	padding-top: 40px;
+
+	img{
+		display: block;
+		margin: 0 auto;
+		width: 70%;
+		box-shadow: 0px -5px 36px 9px rgba(0, 0, 0,0.25);
+	}
+}
+
+.connecter{
+	.hero{
+		background: #121F60;
+	}
+}
+
+.embedly-video{
+	.hero{
+		background: #88FF91;
+		img{
+			max-width: 600px;
+			
+		}
+	}
+
+}
+
+.hill-holliday{
+	.hero{
+		background: #5B52DB;
+	}
+}
+
+.ins{
+	.hero{
+		background: #FF7E7E;
+	}
+}
+
+.embedly-app{
+	.hero{
+		background: #8884E6;
+	}
+}
+
+.phone-three-col{
+	max-width: 100%;
+	background: #171985; /* Old browsers */
+	background: -moz-linear-gradient(top,  #171985 0%, #000137 92%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #171985 0%,#000137 92%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #171985 0%,#000137 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171985', endColorstr='#000137',GradientType=0 ); /* IE6-9 */
+
+	text-align: center;
+	padding: 50px;
+	.inner{
+		width: 56%;
+		margin: 0 auto;
+		display: inline-block; 
+		img{
+			width: 27.3333%;
+			margin: 0 20px;
+		}
+	}
+
+}
+
+h1{
+	padding-top: 0;
+	width:100%;
+	max-width: 740px;
+	margin: 30px auto;
+
+}
+
+.info{
+	max-width: 740px;
+	margin: 0 auto;
+}
+
+
+.full-phone{
+	max-width: 100%;
+	overflow: hidden;
+	height: 400px;
+	background: $orange;
+	img{
+		max-width: 790px;
+		width: 70%;
+		padding-top: 30px;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+.connecter{
+	.full-phone{
+		background: #fb6468;
+	}
+}
+
+.half-section{
+	max-width: 100%;
+	img{
+		float: left;
+		width: 50%;
+	}
+}
+
+@media (max-width: 1370px){
+	.phone-three-col{
+		.inner{
+			width: 100%;
+		}
+	}
+}
+
+@media (max-width: 806px){
+
+	.phone-three-col{
+		.inner{
+			img:first-of-type{
+				display: none;
+			}
+		}
+	}
+}
+
+@media (max-width: 780px){
+
+	h1{
+		padding: 20px 20px;
+		font-size: 48px;
+		padding-top: 30px;
+	}
+
+	.work-selector{
+		padding: 0 20px;
+	}
+
+	.project{
+		.info{
+			li{
+				font-size: 18px;
+			}
+			p{
+				line-height: 23px;
+			}
+		}
+		
+	}
+
+	.info{
+		padding: 0 20px;
+		h3{
+			font-size: 22px;
+		}
+		h2{
+			font-size: 48px;
+		}
+		p{
+			font-size: 18px;
+		}
+
+		
+	}
+
+	.hero{
+		img{
+			width: 90%;
+		}
+	}
+
+	.phone-three-col{
+		overflow: hidden;
+		height: 50vh;
+		.inner{
+			width: 100%;
+			img:first-of-type{
+				display: none;
+			}
+			img{
+				float: left;
+				margin: 0px 0px;
+				width: 50%;
+				padding: 10px;
+			}
+		}
+	}
+
+	.full-phone{
+		height: auto;
+		padding-bottom: 20px;
+	}
+
+}
+
+.mobile-header{
+	display: none;
+}
+
+@media (max-width: 580px){
+
+
+
+	.project{
+		h1{
+			margin-bottom: 10px;
+			display: none;
+		}
+	}
+
+	.mobile-header{
+		h1{
+			
+			font-size: 24px;
+		}
+	}
+		
+	h1{
+		font-size: 48px;
+	}
+
+	.work-selector{
+		li{
+			margin: 20px 0;
+		}
+		h3{
+			font-size: 18px;
+		}
+		h2{
+			font-size: 24px;
+		}
+	}
+
+	.mobile-header{
+		display: block;
+		height: 50px;
+		background: $orange;
+		h1{
+			display: block;
+			color: white;
+			margin-top: 0;
+			padding-top: 10px;;
+		}
+	}
+
+	.hero{
+		padding-top: 5px;
+		img{
+			width: 95%;
+		}
+
+	}
+
+	.info{
+		h3{
+			display: none;
+		}
+		h2{
+			margin-top: 20px;
+			font-size: 24px;	
+		}
+		p{
+			font-size: 16px;
+		}
+		
+	}
+
+	.phone-three-col{
+		height: 300px;
+			img{
+				display: none;
+			}
+			img:first-of-type{
+				width: 100%;
+				display: block !important;
+			}
+		}
+
+}

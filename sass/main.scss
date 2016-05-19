@@ -1,0 +1,139 @@
+@import 'partials/_reset.scss';
+
+
+@import '_variables.scss';
+@import 'partials/_typography.scss';
+
+body{
+	background: $grey;
+}
+
+section{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+@import 'partials/_nav.scss';
+@import 'partials/_home.scss';
+
+@import 'partials/_single.scss';
+
+@import 'partials/_footer.scss';
+
+
+.link {
+	outline: none;
+	text-decoration: none;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+}
+
+// span::before {
+//     content: attr(data-letters);
+//     position: absolute;
+//     color: #fff;
+//     left: 0;
+//     overflow: hidden;
+//     white-space: nowrap;
+//     width: 0%;
+//     -webkit-transition: all 0.5s;
+//     transition: all 0.5s;
+//     -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+//     transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+// }
+
+// .link::after {
+//     content: '';
+//     position: absolute;
+//     height: 100%;
+//     width: 100%;
+//     top: 0;
+//     right: 0;
+//     z-index: -1;
+//     background: #242424;
+//     color: #424242;
+//     -webkit-transform: translate3d(-101%,0,0);
+//     transform: translate3d(-101%,0,0);
+//     -webkit-transition: all 0.3s;
+//     transition: all 0.3s;
+//     -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+//     transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+// }
+
+
+// .link::before {
+//     content: attr(data-letters);
+//     position: absolute;
+//     z-index: 2;
+//     overflow: hidden;
+//     color: #424242;
+//     white-space: nowrap;
+//     width: 0%;
+//     -webkit-transition: all 0.4s 0.3s;
+//     transition: all 0.4s 0.3s;
+// }
+
+// .link:hover span::before {
+//     width: 100%;
+// }
+
+// .link:hover::after {
+//     -webkit-transform: translate3d(0,0,0);
+//     transform: translate3d(0,0,0);
+// }
+
+
+
+
+
+
+
+
+
+
+
+.set{
+	.link::before {
+	    content: attr(data-letters);
+	    position: absolute;
+	    z-index: 2;
+	    overflow: hidden;
+	    color: #424242;
+	    white-space: nowrap;
+	    width: 0%;
+	    -webkit-transition: width 0.4s 0.3s;
+	    transition: width 0.4s 0.3s;
+	}
+	.link::after {
+	    content: '';
+	    -webkit-transform: translate3d(-100%,0,0);
+	    transform: translate3d(-100%,0,0);
+	    -webkit-transition: -webkit-transform 0.4s;
+	    transition: all 0.4s;
+	    -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	    transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	}
+}
+
+
+.set:hover{
+	.link::before {
+    	width: 100%;
+	}
+	.link::after {
+      -webkit-transform: translate3d(100%,0,0);
+  	  transform: translate3d(100%,0,0);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
