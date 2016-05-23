@@ -284,6 +284,15 @@ h1 {
   font-family: 'Gotham-bold';
   margin: 15px 0; }
 
+.project .info .live-link {
+  margin: 15px 0;
+  margin-bottom: 30px; }
+  .project .info .live-link a {
+    color: #fb6468;
+    transition: color .2s; }
+    .project .info .live-link a:hover {
+      color: #0b00e0; }
+
 .project .info ul {
   margin-bottom: 50px;
   overflow: auto; }

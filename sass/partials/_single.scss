@@ -24,6 +24,18 @@
 			margin: 15px 0;
 		}
 
+		.live-link{
+			margin: 15px 0;
+			margin-bottom: 30px;
+			a{
+				color: #fb6468;
+				transition: color .2s;
+				&:hover{
+					color: #0b00e0;
+				}
+			}
+		}
+
 		ul{
 			margin-bottom: 50px;
 			overflow: auto;
