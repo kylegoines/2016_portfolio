@@ -57,8 +57,6 @@
 
 }
 
-
-
 .hero{
 	overflow: hidden;
 	max-width: 100%;
@@ -133,13 +131,13 @@
 
 }
 
-h1{
-	padding-top: 0;
-	width:100%;
-	max-width: 740px;
-	margin: 30px auto;
+// h1{
+// 	padding-top: 0;
+// 	width:100%;
+// 	max-width: 740px;
+// 	margin: 30px auto;
 
-}
+// }
 
 .info{
 	max-width: 740px;
@@ -197,12 +195,12 @@ h1{
 @media (max-width: 780px){
 
 	h1{
-		padding: 20px 20px;
-		font-size: 48px;
-		padding-top: 30px;
+		//padding: 20px 20px;
+		//font-size: 48px;
+		//padding-top: 30px;
 	}
 
-	.work-selector{
+	.work-selector, .head-title{
 		padding: 0 20px;
 	}
 

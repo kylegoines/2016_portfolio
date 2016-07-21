@@ -84,7 +84,9 @@ section{
 // }
 
 
-
+a{
+	cursor: crosshair !important;
+}
 
 
 
@@ -125,14 +127,3 @@ section{
   	  transform: translate3d(100%,0,0);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
